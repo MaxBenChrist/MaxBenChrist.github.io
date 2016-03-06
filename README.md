@@ -1,2 +1,2 @@
 # MaxBenChrist.github.io
-This repository contains the my static jekyll based blog.
+This repository contains my static jekyll based blog.
