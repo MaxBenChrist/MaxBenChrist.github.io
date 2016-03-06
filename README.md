@@ -1,2 +1,2 @@
 # MaxBenChrist.github.io
-Here my blog is hosted
+This repository contains the my static jekyll based blog.
