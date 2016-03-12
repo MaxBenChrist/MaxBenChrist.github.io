@@ -8,7 +8,9 @@
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {% if site.mail %}
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li> 
+          {% endif %}
         </ul>
       </div>
 
@@ -16,13 +18,44 @@
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
-            {% include icon-github.html username=site.github_username %}
+
+            <a href="https://github.com/{{ include.github_username }}">
+              <span class="icon icon--github">
+                <i class='fa fa-github' style="color:#828282"></i>
+              </span>
+              <span class="username">
+                {{ site.github_username }}
+              </span>
+            </a>
+
           </li>
           {% endif %}
 
           {% if site.twitter_username %}
           <li>
-            {% include icon-twitter.html username=site.twitter_username %}
+
+            <a href="https://twitter.com/{{ include.twitter_username }}">
+              <span class="icon icon--twitter">
+                <i class='fa fa-twitter' style="color:#828282"></i>
+              </span>
+              <span class="username">
+                {{ site.twitter_username }}
+              </span>
+            </a>
+
+          </li>
+          {% endif %}
+
+          {% if site.linkedin_url and  site.linkedin_username%}
+          <li>
+            <a href="{{ include.linkedin_url }}">
+              <span class="icon">
+                <i class='fa fa-linkedin' style="color:#828282"></i> 
+              </span>
+              <span class="username">
+                {{ site.linkedin_username }}
+              </span>
+            </a>
           </li>
           {% endif %}
         </ul>
