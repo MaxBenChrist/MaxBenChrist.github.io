@@ -132,16 +132,17 @@ code {
     font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
-    background-color: #eef;
 }
 
 code {
+    background-color: #eef;
     padding: 1px 5px;
 }
 
 pre {
     padding: 8px 12px;
     overflow-x: auto;
+    background-color: inherit;
 
     > code {
         border: 0;
@@ -162,6 +163,19 @@ pre {
 .se{color: #cc2222; font-weight: bold;}
 .si{color: #C06688; font-weight: bold;}
 .nn{color: #4D00FF;}
+
+.output_subarea{
+    background-color: white;
+}
+
+.highlight_ipnb{
+    background-color: inherit;
+}
+
+.input_area{
+    background-color: #eef;
+}
+
 
 
 /**
