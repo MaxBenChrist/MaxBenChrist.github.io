@@ -2,8 +2,6 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
@@ -21,39 +19,27 @@
 
             <a href="https://github.com/{{ include.github_username }}">
               <span class="icon icon--github">
-                <i class='fa fa-github' style="color:#828282"></i>
-              </span>
-              <span class="username">
-                {{ site.github_username }}
+                <i class='fa fa-github fa-3x' style="color:#828282"></i>
               </span>
             </a>
 
-          </li>
           {% endif %}
 
           {% if site.twitter_username %}
-          <li>
 
             <a href="https://twitter.com/{{ include.twitter_username }}">
               <span class="icon icon--twitter">
-                <i class='fa fa-twitter' style="color:#828282"></i>
-              </span>
-              <span class="username">
-                {{ site.twitter_username }}
+                <i class='fa fa-twitter fa-3x' style="color:#828282"></i>
               </span>
             </a>
 
-          </li>
           {% endif %}
 
           {% if site.linkedin_url and  site.linkedin_username%}
-          <li>
+          
             <a href="{{ include.linkedin_url }}">
               <span class="icon">
-                <i class='fa fa-linkedin' style="color:#828282"></i> 
-              </span>
-              <span class="username">
-                {{ site.linkedin_username }}
+                <i class='fa fa-linkedin fa-3x' style="color:#828282"></i> 
               </span>
             </a>
           </li>
