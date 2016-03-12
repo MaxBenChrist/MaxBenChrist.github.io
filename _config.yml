@@ -7,8 +7,7 @@ baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://maximilianchrist.com" # the base hostname & protocol for your site
 twitter_username: MaxBenChrist
 github_username:  MaxBenChrist
-linkedin_username: Maximlian Christ
-linkedin_url: https://www.linkedin.com/in/maximilian-christ-a6b377109?trk=hp-identity-photo
+linkedin_url: "https://www.linkedin.com/in/maximilian-christ-a6b377109"
 
 # Build settings
 markdown: kramdown
@@ -16,3 +15,4 @@ markdown: kramdown
 gems:
   - jekyll-paginate
   - jekyll-gist
+
