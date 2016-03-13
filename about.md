@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 <img alt="Picture of Maximilian Christ" src="/images/maximilian_christ_full.png" style="float:right;width:50%;border:10px solid white">
-I am a passionate Data Scientists who pursues a Ph.D. besides his business work.
+I am a passionate Data Scientist who pursues a Ph.D. besides his business work.
 Originally I studied pure Mathematics in Germany and Spain.
 As a result of an obsession with [Kaggle](https://www.kaggle.com) competitions I became familiar with the Machine Learning field.
 
