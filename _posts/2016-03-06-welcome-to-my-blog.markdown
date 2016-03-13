@@ -3,6 +3,7 @@ layout: post
 title:  "Welcome to my blog!"
 date:   2016-03-06 17:19:44 +0100
 categories: introduction
+comments: True
 ---
 
 Hello internet and welcome to my blog.
