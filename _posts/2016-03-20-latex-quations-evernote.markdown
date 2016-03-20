@@ -6,7 +6,7 @@ categories: LaTex, Evernote
 comments: True
 ---
 
-__TLDR: I will show you how to convert LaTeX snippets into nice equations in your Evernotes notes__
+__TLDR: I will show you how to convert LaTeX snippets into nice equations in your Evernote notes__
 
 ---
 <br>
