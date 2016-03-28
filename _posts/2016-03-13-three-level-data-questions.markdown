@@ -4,6 +4,7 @@ title:  "Who? What? Where?"
 date:   2016-03-13 20:00:00 +0100
 categories: working techniques
 comments: True
+tldr: The following post describes a three step paradigm on how to make yourself familiar with tabular data sources in a structured fashion
 ---
 
 __TLDR: The following post describes a three step paradigm on how to make yourself familiar with tabular data sources in a structured fashion.__

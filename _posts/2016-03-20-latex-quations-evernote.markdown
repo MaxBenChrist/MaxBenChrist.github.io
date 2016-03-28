@@ -4,6 +4,7 @@ title:  "Using LaTeX equations in Evernote (on Mac OS X)"
 date:   2016-03-20 17:00:00 +0100
 categories: LaTex, Evernote
 comments: True
+tldr: I will show you how to convert LaTeX snippets into nice equations in your Evernote notes
 ---
 
 __TLDR: I will show you how to convert LaTeX snippets into nice equations in your Evernote notes__
