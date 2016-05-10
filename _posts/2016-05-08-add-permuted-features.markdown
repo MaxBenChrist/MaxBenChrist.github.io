@@ -14,7 +14,7 @@ __TLDR: You can address overfitting and get a sense for individual feature signi
 
 ### Machine learning finds patterns in the data
 
-Machine learning originates from the field of pattern recognition. [^1] Therefore it is no wonder that related algorithms learn/extract patterns from  data sources to fulfil prediction, classification or clustering tasks. Often the found patterns are fitting mathematical descriptions of the real world causal relations.
+Machine learning originates from the field of pattern recognition. [^1] Therefore it is no wonder that related algorithms learn/extract pattern from  data sources to fulfil prediction, classification or clustering tasks. Often the found patterns are fitting mathematical descriptions of the real world causal relations.
 
 ### Overfitting results in finding noise patterns
 
