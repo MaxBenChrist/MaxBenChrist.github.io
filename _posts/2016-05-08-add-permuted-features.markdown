@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Permuted features in your machine learning model"
+title:  "Use random permuted features during model prototyping"
 date:   2016-05-08 17:00:00 +0100
 categories: Feature importance
 comments: True
@@ -14,7 +14,7 @@ __TLDR: You can address overfitting and get a sense for individual feature signi
 
 ### Machine learning finds patterns in the data
 
-Machine learning originates from the field of pattern recognition. [^1] Therefore it is no wonder that related algorithms learn/extract patterns from given data to fulfil prediction, classification or clustering tasks. Often the found patterns are fitting mathematical descriptions of the real world causal relations.
+Machine learning originates from the field of pattern recognition. [^1] Therefore it is no wonder that related algorithms learn/extract patterns from  data sources to fulfil prediction, classification or clustering tasks. Often the found patterns are fitting mathematical descriptions of the real world causal relations.
 
 ### Overfitting results in finding noise patterns
 
@@ -137,8 +137,8 @@ The Boruta feature selection algorithm is based on this principle of adding perm
 
 ### Conclusion
 
-During prototyping and exploring of new applications for machine learning algorithms, especially when it is not clear how much evidence is contained in the data and different features I always add permuted versions of the original features.
-Those help to address both overfitting and uncertainty of individual feature significances.
+During prototyping and proof-of-concept type projects, especially when it is not clear how much evidence is contained in the data and resulting features I always add permuted versions of the original features.
+This helps to address both overfitting and uncertainty of individual feature significances.
 
 -----
 [^1]: See the introduction of *"Pattern recognition and machine learning"* by Christopher M. Bishop
