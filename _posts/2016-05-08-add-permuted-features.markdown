@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Use random permuted features during model prototyping"
+title:  "Use randomly permuted features during model prototyping"
 date:   2016-05-08 17:00:00 +0100
 categories: Feature importance
 comments: True
-tldr: You can address overfitting and get a sense for individual feature significances by adding random permuted features to your machine learning model
+tldr: You can address overfitting and get a sense for individual feature significances by adding randomly permuted features to your machine learning model
 ---
 
-__TLDR: You can address overfitting and get a sense for individual feature significances by adding random permuted features to your machine learning model__
+__TLDR: You can address overfitting and get a sense for individual feature significances by adding randomly permuted features to your machine learning model__
 
 ---
 <br>
@@ -38,7 +38,7 @@ An important machine learning paradigm to deal with the black box character and 
 Hence, to address both the problem of overfitting in general and to address the individual feature significance, I propose to
 
 
-*„Always add random permuted versions of the features to your model“.*
+*„Always add randomly permuted versions of the features to your model“.*
 {: style="text-align: center"}
 
 
@@ -128,7 +128,7 @@ This results in the following plot:
 
 The red bars denote the coefficients of the randomly permuted features. They are statistically independent from the target and state a baseline influence niveau.
 In such a situation, all features that have a lower absolute coefficient value than the maximum of the permuted versions should be examined critically.
-Here, on a first sight features, 3, 5, 6 and 9 can be considered as (possibly) significant because the absolute value of their importance is higher than the random permuted versions.
+Here, on a first sight features, 3, 5, 6 and 9 can be considered as (possibly) significant because the absolute value of their importance is higher than the randomly permuted versions.
 
 
 ### Boruta algorithm is based on this principle
