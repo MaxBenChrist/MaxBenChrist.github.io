@@ -93,7 +93,7 @@ plt.ylabel("Coefficient", fontsize=16)
 plt.show()
 ```
 This results in the following figure:
-![Coefficients of the linear regression model ](/images/add_permuted_features_1.png)
+![Coefficients of the linear regression model ](/images/add_permuted_features_1.png){:rel="nofollow"}
 From this plot, I would assume that feature 1 - due to its low coefficient - does not have a linear correlation to the target and is therefore not of importance in the linear regression model. However, those values seem somehow arbitrary, I am not able to compare them to some kind of baseline coefficient.
 
 ### Plotting of the linear regression coefficients with randomly permuted features
@@ -124,7 +124,7 @@ plt.ylabel("Coefficient", fontsize=16)
 plt.show()
 ```
 This results in the following plot:
-![Coefficients with permuted versions](/images/add_permuted_features_2.png)
+![Coefficients with permuted versions](/images/add_permuted_features_2.png){:rel="nofollow"}
 
 The red bars denote the coefficients of the randomly permuted features. They are statistically independent from the target and state a baseline influence niveau.
 In such a situation, all features that have a lower absolute coefficient value than the maximum of the permuted versions should be examined critically.
@@ -143,4 +143,4 @@ This helps to address both overfitting and uncertainty of individual feature sig
 -----
 [^1]: See the introduction of *"Pattern recognition and machine learning"* by Christopher M. Bishop
 
-[^2]: See the paper *"Boruta – A System for Feature Selection."*  by Miron B. Kursa, Aleksander Jankowski , Witold R. Rudnicki or the Scikit-learn compatible [python implementation](https://github.com/danielhomola/boruta_py) by Daniel Homola
+[^2]: See the paper *"Boruta – A System for Feature Selection."*  by Miron B. Kursa, Aleksander Jankowski , Witold R. Rudnicki or the Scikit-learn compatible [python implementation](https://github.com/danielhomola/boruta_py){:rel="nofollow"} by Daniel Homola

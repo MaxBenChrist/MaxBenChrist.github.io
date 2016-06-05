@@ -17,7 +17,7 @@ __TLDR: The following post describes a three step paradigm on how to make yourse
 In the beginning of every Data Science project you have to make yourself familiar with given data sources. To do so, you as a Data Scientist have to understand the underlying business processes that generate those data. This is especially relevant if you work as a consultant and switch industries, clients, investigated issues and with it the data structures every few months.
 
 
-![Before you understand the data](https://media.giphy.com/media/ohdY5OaQmUmVW/giphy.gif)
+![Before you understand the data](https://media.giphy.com/media/ohdY5OaQmUmVW/giphy.gif){:rel="nofollow"}
 
 Depending on the industry, data generating processes can be very complex and as always the 'devil is in the details'. Further, stakeholders often do not understand important concepts for the successful application of Machine Learning components. So the Data Scientists has to make sure that the right questions are asked in the right order. 
 
@@ -46,7 +46,7 @@ So how should we structure the asking process? The principle is to start by gett
 
 There are three levels in the familiarizing process. After completing all questions of the current level you move one level forward. The three level in sequential order are: Table, column and cell level. The following figure visualizes the three phases of the make-yourself-familiar process:
 
-![The three levels: Table, column and cell](/images/www_overview_level_questions.png)
+![The three levels: Table, column and cell](/images/www_overview_level_questions.png){:rel="nofollow"}
 
 The three phases go as follows:
 
@@ -97,7 +97,7 @@ Moreover you can omit certain detail questions if you find out that a certain ta
 
 The method is thought for relational data where several tables have to be connected. Probably it can be generalized to other data sources as well but I am lacking experience in those fields.
 
-I would love to get your feedback so I uploaded the question scheme to [Github](https://github.com/MaxBenChrist/tabdata-questions/blob/master/tab_data_questions.md). If you think that I missed an important question or level you can just add it there. 
+I would love to get your feedback so I uploaded the question scheme to [Github](https://github.com/MaxBenChrist/tabdata-questions/blob/master/tab_data_questions.md){:rel="nofollow"}. If you think that I missed an important question or level you can just add it there.
 
 ----- 
 [^1]: In one of the projects I participated we had several tables having columns with the same name "ID". It was obvious that those were used as keys to associate the tables together. What was not clear was that one had to add 1 to every "ID" in one table to get the right association key to the other tables. So an ID of 6 in this table corresponded to an ID of 7 in the other tables. We would have missed this and probably build wrong features if we had not asked detailed questions about the association process early on.
