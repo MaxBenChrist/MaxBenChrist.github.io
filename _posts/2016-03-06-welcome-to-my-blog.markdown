@@ -4,13 +4,14 @@ title:  "Welcome to my blog!"
 date:   2016-03-06 17:19:44 +0100
 categories: introduction
 comments: True
+excerpt: My first post, I welcome you to my blog.
 ---
 
 Hello internet and welcome to my blog.
 
 ![celebrate](http://49.media.tumblr.com/a9308a69b396b5f809653d63ec56eb56/tumblr_n2xc3cHWg01sgl0ajo1_500.gif)
 
-In the near future I will use this blog to write about things that I find interesting and/or useful. 
+In the near future I will use this blog to write about things that I find interesting and/or useful.
 The topics will be mostly related to Statistics, Data Science, Machine Learning and Programming in general.
 
 As [Jonathan Rosenberg](https://googleblog.blogspot.de/2009/02/from-height-of-this-place.html) wrote in an Email to Google Employees in 2009
