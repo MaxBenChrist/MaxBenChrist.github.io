@@ -9,7 +9,7 @@ excerpt: My first post, I welcome you to my blog.
 
 Hello internet and welcome to my blog.
 
-![celebrate](http://49.media.tumblr.com/a9308a69b396b5f809653d63ec56eb56/tumblr_n2xc3cHWg01sgl0ajo1_500.gif){:rel="nofollow"}
+![A friendly waving bear ](http://49.media.tumblr.com/a9308a69b396b5f809653d63ec56eb56/tumblr_n2xc3cHWg01sgl0ajo1_500.gif){:rel="nofollow"}
 
 In the near future I will use this blog to write about things that I find interesting and/or useful.
 The topics will be mostly related to Statistics, Data Science, Machine Learning and Programming in general.

@@ -124,7 +124,7 @@ plt.ylabel("Coefficient", fontsize=16)
 plt.show()
 ```
 This results in the following plot:
-![Coefficients with permuted versions](/images/add_permuted_features_2.png){:rel="nofollow"}
+![The Coefficients of the linear model with permuted features](/images/add_permuted_features_2.png){:rel="nofollow"}
 
 The red bars denote the coefficients of the randomly permuted features. They are statistically independent from the target and state a baseline influence niveau.
 In such a situation, all features that have a lower absolute coefficient value than the maximum of the permuted versions should be examined critically.

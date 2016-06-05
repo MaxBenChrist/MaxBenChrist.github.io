@@ -17,7 +17,7 @@ __TLDR: The following post describes a three step paradigm on how to make yourse
 In the beginning of every Data Science project you have to make yourself familiar with given data sources. To do so, you as a Data Scientist have to understand the underlying business processes that generate those data. This is especially relevant if you work as a consultant and switch industries, clients, investigated issues and with it the data structures every few months.
 
 
-![Before you understand the data](https://media.giphy.com/media/ohdY5OaQmUmVW/giphy.gif){:rel="nofollow"}
+![A confused person, like you ones understand the data](https://media.giphy.com/media/ohdY5OaQmUmVW/giphy.gif){:rel="nofollow"}
 
 Depending on the industry, data generating processes can be very complex and as always the 'devil is in the details'. Further, stakeholders often do not understand important concepts for the successful application of Machine Learning components. So the Data Scientists has to make sure that the right questions are asked in the right order. 
 
