@@ -12,16 +12,16 @@ __TLDR: The following post describes a three step paradigm on how to make yourse
 ---
 <br>
 
-# Taking a shot in the dark
+### Taking a shot in the dark
 
 In the beginning of every Data Science project you have to make yourself familiar with given data sources. To do so, you as a Data Scientist have to understand the underlying business processes that generate those data. This is especially relevant if you work as a consultant and switch industries, clients, investigated issues and with it the data structures every few months.
 
 
 ![A confused person, like you ones understand the data](https://media.giphy.com/media/ohdY5OaQmUmVW/giphy.gif){:rel="nofollow"}
 
-Depending on the industry, data generating processes can be very complex and as always the 'devil is in the details'. Further, stakeholders often do not understand important concepts for the successful application of Machine Learning components. So the Data Scientists has to make sure that the right questions are asked in the right order. 
+Depending on the industry, data generating processes can be very complex and as always the 'devil is in the details'. Further, stakeholders often do not understand important concepts for the successful application of Machine Learning components. So the Data Scientists has to make sure that the right questions are asked in the right order.
 
-But I noticed that even experienced Statisticians and Data Scientists often jump between asking questions on a global level 
+But I noticed that even experienced Statisticians and Data Scientists often jump between asking questions on a global level
 
 *"How can I associate Table 1 with Table 2?"*
 {: style="text-align: center"}
@@ -31,7 +31,7 @@ and going into detail by asking very specific questions
 *"What does Value C in Column X in Table AB indicate?“*.
 {: style="text-align: center"}
 
-# Resulting problems
+### Resulting problems
 
 What is dangerous about asking in such an unstructured fashion? It can confuse the client. He cannot deduce how deep your current understanding of the data is. Detailed questions that are asked too early could leave the impression that all general questions are already solved.
 
@@ -42,7 +42,7 @@ As I could not find any Data Science question structuring method or guideline I 
 
 So how should we structure the asking process? The principle is to start by getting to know the data on a global overview and then later zoom in. So we start asking very general questions that are continuously sharpened. It is not a strict three step tutorial but more of a way of structuring your thoughts while getting a deep understanding of the data sources in the project.
 
-# Organize the getting-familiar-process 
+### Organize the getting-familiar-process
 
 There are three levels in the familiarizing process. After completing all questions of the current level you move one level forward. The three level in sequential order are: Table, column and cell level. The following figure visualizes the three phases of the make-yourself-familiar process:
 
@@ -77,7 +77,7 @@ __3. Cell level:__
 
 Now we have a deeper understanding of both columns and tables which is why we start caring about individual values:
 
-*   Meaning of values: What do the different values represent? What do eventual abbreviations stand for? 
+*   Meaning of values: What do the different values represent? What do eventual abbreviations stand for?
 *   Ordering of values: Is there a natural ordering in certain classes? [^2]
 *   Meaning of NAs/missing values: Is there really missing information or was the information hidden by purpose?
 *   Meaning of certain samples/rows: Is sample/row XYZ ok or an outlier?
@@ -87,11 +87,11 @@ An exemplary question during this level for the figure from above could be *"Wha
 
 In total this structuring seems very obvious but I noticed that many \-even experienced\- Data Scientists, in the heat of the moment, tend to skip between those levels in their getting-familiar-with-the-data process.
 
-# Positive side effects
+### Positive side effects
 
 In my work as a Data Scientist I always try to respect this order when getting to know new tabular data sources.
 
-There are several advantages of my three level question method. It will help you structuring your thoughts and the getting-familiar-with-the-data process. Besides, from the level of your questions clients and stakeholders can get a feeling on how deep your understanding is. 
+There are several advantages of my three level question method. It will help you structuring your thoughts and the getting-familiar-with-the-data process. Besides, from the level of your questions clients and stakeholders can get a feeling on how deep your understanding is.
 
 Moreover you can omit certain detail questions if you find out that a certain table cannot be linked to the other tables. This will help you to save valuable time and be more productive. For example if the data in one table cannot be reliable linked to other tables, you would probably omit that table in your analyses.
 
@@ -99,7 +99,7 @@ The method is thought for relational data where several tables have to be connec
 
 I would love to get your feedback so I uploaded the question scheme to [Github](https://github.com/MaxBenChrist/tabdata-questions/blob/master/tab_data_questions.md){:rel="nofollow"}. If you think that I missed an important question or level you can just add it there.
 
------ 
+-----
 [^1]: In one of the projects I participated we had several tables having columns with the same name "ID". It was obvious that those were used as keys to associate the tables together. What was not clear was that one had to add 1 to every "ID" in one table to get the right association key to the other tables. So an ID of 6 in this table corresponded to an ID of 7 in the other tables. We would have missed this and probably build wrong features if we had not asked detailed questions about the association process early on.
 
 [^2]: Think of credit classes A, B, C where A is the most solvent, B is medium solvent and C is less solved. Hence there exists a natural order between those classes A>B>C with respect to the solvency.
