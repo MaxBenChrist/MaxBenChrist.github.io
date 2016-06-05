@@ -8,6 +8,7 @@ url: "http://maximilianchrist.com" # the base hostname & protocol for your site
 twitter_username: MaxBenChrist
 github_username:  MaxBenChrist
 linkedin_url: "https://www.linkedin.com/in/maximilian-christ-a6b377109"
+permalink: /blog/:title
 
 # Build settings
 markdown: kramdown

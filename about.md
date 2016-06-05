@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-permalink: /about/
+permalink: /about_me/
 excerpt: This page contains a short introduction about me, Maximilian Christ.
 ---
 
