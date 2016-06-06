@@ -13,5 +13,8 @@ permalink: /blog/:title
 # Build settings
 markdown: kramdown
 
+gems:
+  - jekyll-sitemap
+
 #highlighter: pygments
 #gems:
