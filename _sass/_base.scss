@@ -86,6 +86,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+/* To center images */
+.center {
+    text-align: center;
+}
 
 /**
  * Links
@@ -135,7 +139,7 @@ code {
 }
 
 code {
-    background-color: #eef;
+    background-color: #efecee;
     padding: 1px 5px;
 }
 
@@ -149,6 +153,7 @@ pre {
         padding-right: 0;
         padding-left: 0;
     }
+
 }
 
 .k{color: #338822; font-weight: bold;}
@@ -175,8 +180,6 @@ pre {
 .input_area{
     background-color: #eef;
 }
-
-
 
 /**
  * Wrapper
