@@ -40,7 +40,7 @@ Kafka can encrypt connections to message consumers and producers by SSL. Instruc
 
 ### Connect to Kafka using Python  
 
-![Kafka distributes messages](/images/20160803_ssl_kafka_Python.png){:rel="nofollow"}
+![Kafka distributes messages](/images/20160803_ssl_kafka_python.png){:rel="nofollow"}
 
 The following Python packages allow to connect to Kafka:
 
