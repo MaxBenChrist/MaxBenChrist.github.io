@@ -49,8 +49,18 @@ You can click on the different column names to sort by the values of that column
             <td>
             Maximilian Christ, Andreas W. Kempa-Liehr and Michael Feindt <br>
             <i>"Distributed and parallel time series feature extraction for industrial big data applications."</i>  <br>
-            Workshop on Learning on Big Data, Asian Conference on Machine Learning (ACML), 2016 <br>
+            Workshop on Learning on Big Data, Asian Conference on Machine Learning (ACML 2016) <br>
             ArXiv e-print 1610.07717, <a href="https://arxiv.org/abs/1610.07717" rel="nofollow">https://arxiv.org/abs/1610.07717</a> </td>
+        </tr>
+         <tr>
+            <td>Conference Paper</td>
+            <td>Computer Science</td>
+            <td>2016</td>
+            <td>
+            Michael Falkenthal, Uwe Breitenbücher, Kálmán Képes, Frank Leymann, Michael Zimmermann, Maximilian Christ, Julius Neuffer, Nils Braun and Andreas W. Kempa-Liehr <br>
+            <i>"OpenTOSCA for the 4th Industrial Revolution: Automating the Provisioning of Analytics Tools based on Apache Flink."</i>  <br>
+            IoT'16 Proceedings of the 6th International Conference on the Internet of Things <br>
+           <a href="http://dl.acm.org/citation.cfm?id=2998463" rel="nofollow">http://dl.acm.org/citation.cfm?id=2998463</a> </td>
         </tr>
     </tbody>
 </table>
