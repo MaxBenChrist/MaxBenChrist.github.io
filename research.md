@@ -32,7 +32,7 @@ You can click on the different column names to sort by the values of that column
             <td>2016</td>
             <td> Michael Falkenthal, Uwe Breitenbücher, Maximilian Christ, Christian Endres, Andreas W. Kempa-Liehr,  Frank Leymann, Michael Zimmermann: <br>
             <i>"Towards Function and Data Shipping in Manufacturing Environments: How Cloud Technologies leverage the 4th Industrial Revolution."</i>  <br>
-            In: Proceedings of the 10th Advanced Summer School on Service Oriented Computing </td>
+            Proceedings of the 10th Advanced Summer School on Service Oriented Computing </td>
         </tr>
         <tr>
             <td>Conference Poster</td>
@@ -59,8 +59,17 @@ You can click on the different column names to sort by the values of that column
             <td>
             Michael Falkenthal, Uwe Breitenbücher, Kálmán Képes, Frank Leymann, Michael Zimmermann, Maximilian Christ, Julius Neuffer, Nils Braun and Andreas W. Kempa-Liehr <br>
             <i>"OpenTOSCA for the 4th Industrial Revolution: Automating the Provisioning of Analytics Tools based on Apache Flink."</i>  <br>
-            IoT'16 Proceedings of the 6th International Conference on the Internet of Things <br>
+            Proceedings of the 6th International Conference on the Internet of Things (IoT'16 )<br>
            <a href="http://dl.acm.org/citation.cfm?id=2998463" rel="nofollow">http://dl.acm.org/citation.cfm?id=2998463</a> </td>
+        </tr>
+         <tr>
+            <td>Conference Paper</td>
+            <td>Service Science</td>
+            <td>2017</td>
+            <td>
+            Maximilian Christ1, Julius Neuffer, and Andreas W. Kempa-Liehr <br>
+            <i>"On the Implicit Cost Structure of Service Levels from the Perspective of the Service Consumer"</i>  <br>
+            Proceedings of the The 7th International Conference on Cloud Computing and Services Science (Closer’17) </td>
         </tr>
     </tbody>
 </table>
