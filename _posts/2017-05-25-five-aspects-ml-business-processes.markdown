@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Five Conditions to Identify Business Processes that are ready for Machine Learning"
+title:  "Five Conditions to Identify Business Processes That Are Ready for Machine Learning"
 date:   2017-05-25 07:00:00 +0100
 categories: Consulting, Business Processes, Machine Learning
 comments: True
 tldr: Judging if Machine Learning techniques can enhance your business is hard. I will show five key aspects of Machine Learning-worthy business processes.
 ---
 
-__TLDR: Judging if Machine Learning techniques can enhance your business is hard. I will show five key aspects of Machine Learning-worthy business. processes__
+__TLDR: Judging if Machine Learning techniques can enhance your business is hard. I will show five key aspects of Machine Learning-worthy business processes__
 
 ---
 <br>
@@ -17,7 +17,7 @@ As the buzzwords Big Data, Artificial Intelligence (AI), Machine Learning (ML) a
 
 <figure>
 <center>
-  <img src="/images/20170522_machine_learning_everywhere.jpeg" alt="Maschine Learning is everywhere" style="width: 60%;" rel="nofollow"/>
+  <img src="/images/20170522_machine_learning_everywhere.jpeg" alt="Machine Learning is everywhere" style="width: 60%;" rel="nofollow"/>
   <figcaption>
   <i> Machine Learning feels like a mega trend
   </i>
@@ -26,9 +26,9 @@ As the buzzwords Big Data, Artificial Intelligence (AI), Machine Learning (ML) a
 </figure>
 
 Machine Learning is a summary of techniques that allow computers to learn.
-The field provides algorithms that are able to boost businesses performance by finding patterns in business activity, forecasting future events and optimizing decisions.
+The field provides algorithms that are able to boost businesses' performance by finding patterns in business activity, forecasting future events and optimizing decisions.
 
-For someone without Data Science experience it can be hard to judge where Machine Learning can generate business value. So, in this blog post, I will sketch five characteristics of business processes that are worthy to be enhanced by Machine Learning.
+For someone without Data Science experience it might be hard to judge where Machine Learning can generate business value. So, in this blog post, I will sketch five characteristics of business processes that are worthy to be enhanced by Machine Learning.
 
 ---
 <br>
@@ -67,7 +67,7 @@ So, how can one find business areas that are worthy to be enhanced the holy ML g
 
 3.    _[Classification of mails that contain spam](http://s3.amazonaws.com/academia.edu.documents/43906061/A_review_of_machine_learning_approaches_20160319-23716-gvrql2.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1495448535&Signature=uM2RheoTMvC0JT8gDZ%2B5ZQSriyw%3D&response-content-disposition=inline%3B%20filename%3DA_review_of_machine_learning_approaches.pdf){:rel="nofollow"}_: Based on the content,  metadata and context, a classification algorithm can estimate the probability that a given mail contains spam.
 
-4.   _[Personalized marketing or prices](https://www.blue-yonder.com/en/solutions/price-optimization){:rel="nofollow"}_. ML can help to tailor promotions or discounts to a clients profile, which increases user engagement, revenue, conversion rate and other KPIs.
+4.   _[Personalized marketing or prices](https://www.blue-yonder.com/en/solutions/price-optimization){:rel="nofollow"}_. ML can help to tailor promotions or discounts to a client's profile, which improve user engagement, revenue, conversion rate and other KPIs.
 
 5.    _[Detection of fraudulent transactions](https://www.kaggle.com/dalpozz/creditcardfraud){:rel="nofollow"}_: Machine Learning can detect fraudulent payments by considering many factors such as the trustworthiness of the vendor, the recent cardholder’s behavior, time and location factors etc.
 
@@ -91,14 +91,14 @@ Further, there are more things that all those applications have in common. They 
 
 So, what do those five business cases from above have in common?
 They have an uncertainty in the optimal decision, are mostly small decisions, have direct impact on business, there is a data history and the input data contains evidence for the target.
-Those are the five promised conditions, which I will now explain with more detail:
+Those are the five promised conditions, which I will now discuss in detail:
 
 
 #### Condition 1: _The optimal decision should be uncertain_
 
-If the business process is already deterministic, then there is no needs to deploy Machine Learning to automate it.
+If the business process is already deterministic, then there is no need to deploy Machine Learning to automate it.
 Just use a rule engine to optimize it.
-In example 1. it is not clear how much the customers will buy while in 3. it is not clear if a mail is spam or not.
+In example 1. it is not clear how much customers will buy while in 3. it is not clear if a mail is spam or not.
 
 <figure>
 <center>
@@ -115,7 +115,7 @@ In example 1. it is not clear how much the customers will buy while in 3. it is 
 #### Condition 2: _Machine learning optimizes lots of small/micro decisions and no strategic decisions_
 
 An unfitting example for a ML process would be the decision when to start a global sale. This stands in contrast to lots of small decisions such as which products to put on sale.
-Also, you could automate which customers to send marketing material, like in 4.
+Also, you could automate which customers to send marketing material to, like in example 4.
 For the application of Machine Learning, we need many „small“ business processes.
 Those should be made frequently.
 So, focus on operational and not strategic decisions.
@@ -148,7 +148,7 @@ Real value is only generated by Machine Learning when  predictions/decisions are
 
 <br>
 
-#### Condition 4: _You need a Data history_
+#### Condition 4: _You need a data history_
 
 There should be historic data about the course of old business processes. Otherwise models can not be trained (for non ML people: training describes the process of developing a ML system). So if you do not track old business processes, you have to start collecting data before you develop your Machine Learning application.
 
@@ -166,9 +166,9 @@ There should be historic data about the course of old business processes. Otherw
 
 #### Condition 5: _You need Evidence_
 
-There should be input variables can be internally linked to the optimal decision, which can only be validated by looking into the data.
-For example, in a predictive Maintenance case, it could be that 80% of all failures are not predictable and occur spontaneous.
-In such a case, the Machine Learning techniques are maybe not be able to properly optimize the service routing like in example 3.
+There should be input variables which can be internally linked to the optimal decision, which can only be validated by looking into the data.
+For example, in a predictive maintenance case, it could be that 80% of all failures are not predictable and occur spontaneous.
+In such a case, Machine Learning techniques are maybe not able to properly optimize the service routing like in example 3.
 
 Also, very related business cases can behave totally differently.
 E.g. in the case of a replenishment system as in 1., it is not uncommon that there is enough evidence to anticipate the demand on a week bases but not on a day base.
@@ -195,7 +195,7 @@ If one of those is not fulfilled, this is probably a real showstopper for your M
 
 ### That is all?
 
-Of course, beyond those five checkpoints, there is a huge range of other success factors that determine if Machine Learning will generate value in your line of work.
+Of course, beyond those five checkpoints, there is a huge range of other success factors that determines if Machine Learning will generate value in your line of work.
 For example, you will need change management to accompany the Machine Learning revolution, the algorithms will need a platform and infrastructure to run, and so on.
 
 Also, keep in mind that
@@ -203,7 +203,7 @@ Also, keep in mind that
 *"optimizing a failing process make you only fail harder“.*
 {: style="text-align: center"}
 
-So, let's say you are still in the business of renting VHS or DVDs, I am afraid to say so, but no algorithm will help you. If your business model is seriously flawed, Machine Learning can not prevent its downfall.
+So, let us say you are still in the business of renting VHS or DVDs - I am afraid to say so - but no algorithm will help you. If your business model is seriously flawed, Machine Learning can not prevent its downfall.
 
 
 So, what do you think about those five aspects? Did I miss a key point?
