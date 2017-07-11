@@ -1,25 +1,12 @@
 /**
  * Syntax highlighting styles
  */
-
-.highlight pre code {
-  display: block;
-  white-space: pre;
-  overflow-x: auto;
-  word-wrap: normal;
-  color: #ccc;
-  display:inline-block;
-  padding: 0 5px;
-  border-right:1px
-  solid #ccc;  }
-
-
 .highlight {
     background: #fff;
     @extend %vertical-rhythm;
 
     .highlighter-rouge & {
-      background: #efecee;
+      background: #eef;
     }
 
     .c     { color: #998; font-style: italic } // Comment

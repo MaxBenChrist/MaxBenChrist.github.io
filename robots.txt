@@ -1,3 +1,5 @@
+---
+title: robots
+---
 User-agent: *
-Disallow: /images/
-Sitemap: http://maximilianchrist.com/sitemap.xml
+Sitemap: <{{site.url}}/sitemap.xml>

@@ -217,15 +217,15 @@
     margin-bottom: $spacing-unit;
 
     h2 {
-        font-size: 24px;
+        font-size: 32px;
 
         @include media-query($on-laptop) {
-            font-size: 24px;
+            font-size: 28px;
         }
     }
 
     h3 {
-        font-size: 22px;
+        font-size: 26px;
 
         @include media-query($on-laptop) {
             font-size: 22px;
@@ -239,4 +239,8 @@
             font-size: 18px;
         }
     }
+}
+
+.row{
+    margin: 0px !important;
 }

@@ -86,10 +86,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/* To center images */
-.center {
-    text-align: center;
-}
 
 /**
  * Links
@@ -136,50 +132,25 @@ code {
     font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
+    background-color: #eef;
 }
 
 code {
-    background-color: #efecee;
     padding: 1px 5px;
 }
 
 pre {
     padding: 8px 12px;
     overflow-x: auto;
-    background-color: inherit;
 
     > code {
         border: 0;
         padding-right: 0;
         padding-left: 0;
     }
-
 }
 
-.k{color: #338822; font-weight: bold;}
-.kn{color: #338822; font-weight: bold;}
-.mi{color: #000000;}
-.p{color: #4D00FF;}
-.o{color: #000000;}
-.ow{color: #BA22FF;  font-weight: bold;}
-.nb{color: #338822;}
-.n{color: #000000;}
-.s{color: #cc2222;}
-.se{color: #cc2222; font-weight: bold;}
-.si{color: #C06688; font-weight: bold;}
-.nn{color: #4D00FF;}
 
-.output_subarea{
-    background-color: white;
-}
-
-.highlight_ipnb{
-    background-color: inherit;
-}
-
-.input_area{
-    background-color: #eef;
-}
 
 /**
  * Wrapper
