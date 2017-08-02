@@ -1,0 +1,113 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+#- name:
+#    detail: Sabbatical
+#    i18n: company_a
+#  desc:
+#    detail: >
+#     Investing time to learn new programming paradigms (e.g. functional programming) and
+#     new algorithmic approaches (e.g. deep learning, Bayesian modelling) while
+#     beeing in foreign environments.
+#    i18n: company_a_desc
+#  date:
+#    detail: October 2017
+#    i18n: company_a_date
+#  job:
+#    detail: Traveler
+#    i18n: company_a_job
+#  icon: fa-rocket
+
+- name:
+    detail: Blue Yonder
+    i18n: company_a
+  desc:
+    detail: >
+     Consulting clients about Predictive Applications in the industrial sector.
+     Finished projects investigated the statistical and technical feasibility of data driven decisions for Industrial Applications.
+     Such can be used for predictive maintenance as well as for the optimization of discrete and continuous production of simple (e.g. steel billets) and complex goods (e.g. electronic control units).
+     Further participating in the BMBF and BMWi funded research projects "iPRODICT" and "Sepia.Pro".
+    i18n: company_a_desc
+  date:
+    detail: March 2015
+    i18n: company_a_date
+  job:
+    detail: Data Science Consultant
+    i18n: company_a_job
+  icon: fa-industry
+
+- name:
+    detail: Provinzial Rheinland Insurance
+    i18n: company_b
+  desc:
+    detail: >
+     Testing the calculation of premiums for life insurances and fund based saving plans in the company wide inventory management system by designing and implementing simulators.
+     The simulators were written in PERL and VBA and the inventory management system itself was written in C.
+    i18n: company_b_desc
+  date:
+    detail: Oktober 2014
+    i18n: company_b_date
+  job:
+    detail: Working student (Actuarial inventory management)
+    i18n: company_b_job
+  icon: fa-line-chart
+
+- name:
+    detail: PricewaterhouseCoopers
+    i18n: company_b
+  desc:
+    detail: >
+     Employing of statistical techniques to find fraudulent behavior patterns in non homogenous Big Data sources such as ERP data or textual sources. Resulting analytic components were written in Java.
+    i18n: company_b_desc
+  date:
+    detail: Juli 2014
+    i18n: company_b_date
+  job:
+    detail: Intern (Forensic Services - Big Data)
+    i18n: company_b_job
+  icon: fa-search
+
+- name:
+    detail: Heinrich Heine Universität Düsseldorf
+    i18n: company_b
+  desc:
+    detail: >
+      Specialization in Functional Analysis and Statistics. Master thesis extended Logic Regression by a feature learning mechanism.
+    i18n: company_b_desc
+  date:
+    detail: April 2013
+    i18n: company_b_date
+  job:
+    detail: Master of Science (1.4) in Applied Mathematics
+    i18n: company_b_job
+  icon: fa-university
+
+- name:
+    detail: Universitat de València
+    i18n: company_b
+  desc:
+    detail: >
+      Two abroad semester in the Erasmus program. Specialization in Machine Learning and Finance.
+      Sí, hablo español ;).
+    i18n: company_b_desc
+  date:
+    detail: August 2013
+    i18n: company_b_date
+  job:
+    detail: Máster Universitario en Investigación Matemática
+    i18n: company_b_job
+  icon: fa-university
+
+- name:
+    detail: Heinrich Heine Universität Düsseldorf
+    i18n: company_b
+  desc:
+    detail: >
+        Specialization in Statistics.
+    i18n: company_b_desc
+  date:
+    detail: April 2010
+    i18n: company_b_date
+  job:
+    detail: Bachelor of Science (1.2, with distinction) in Applied Mathematics
+    i18n: company_b_job
+  icon: fa-university

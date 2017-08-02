@@ -1,0 +1,21 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: tsfresh
+  i18n: jalpc
+  gh_user: blue-yonder
+  repo: tsfresh
+  img: /static/assets/img/landing/tsfresh_overview.png
+  desc: >
+   Data Scientists spend a significant amount of time on building features which are certain characteristics or patterns in the inspected data.
+   This is especially true for timely annotated data such as time series and sequences.
+   Now, the python package tsfresh frees your time spend on building features by extracting them automatically from time series.
+
+- name: tspreprocess
+  i18n: jalpc
+  gh_user: MaxBenChrist
+  repo: tspreprocess
+  img: /static/assets/img/landing/WIP_projects.png
+  desc: >
+   WIP: A library to preprocess time series. It is planned to contain methods to
+    denoise, compress or resample such data.
