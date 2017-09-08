@@ -19,3 +19,12 @@
   desc: >
    WIP: A library to preprocess time series. It is planned to contain methods to
     denoise, compress or resample such data.
+
+- name: awesome time series in python
+  i18n: jalpc
+  gh_user: MaxBenChrist
+  repo: awesome_time_series_in_python
+  img: /static/assets/img/landing/awesome_time_series_python.png
+  desc: >
+   WIP: The python ecosystem contains many packages to process time series data.
+   This curated list contains the most important ones.
