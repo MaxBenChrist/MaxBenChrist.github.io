@@ -33,7 +33,7 @@
   job:
     detail: Freelance Data Science Consultant
     i18n: company_a_job
-  icon: fa-chart-line
+  icon: fa-bar-chart
 
 - name:
     detail: Blue Yonder
