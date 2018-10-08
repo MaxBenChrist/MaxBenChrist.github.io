@@ -18,6 +18,24 @@
 #  icon: fa-rocket
 
 - name:
+    detail: Diverse Clients
+    i18n: company_a
+  desc:
+    detail: >
+     As a Freelance Data Scientist / Data Engineer I have consulted clients from the Internet of Things (IoT) and Finance environments.
+     I focused on developing systems that solved dynamic problems, which involved the analysis of time series with help of statistics
+     and machine learning. In finished projects I have implemented an automated annotating of sensory time series or developed a
+     classifier for an intraday trading strategy.
+    i18n: company_a_desc
+  date:
+    detail: October 2017
+    i18n: company_a_date
+  job:
+    detail: Freelance Data Science Consultant
+    i18n: company_a_job
+  icon: fa-chart-line
+
+- name:
     detail: Blue Yonder
     i18n: company_a
   desc:
