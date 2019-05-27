@@ -29,8 +29,9 @@ author:  # change following line to your infomation.
     - name: icon-python
     - name: icon-shell
   desc: >
-   I am a passionate Mathematician who pursues a Ph.D. besides his business work.
-   As a Data Scientist, my interests and experiences in Programming, Classical Statistics, Distributed Systems and Machine Learning help me to realize measurable business value.
+   I am a Mathematician by education and a Data Scientist by heart. 
+   My interests and experiences in Programming, Statistics, Distributed Systems and Machine Learning help me to realize measurable business value in different industries.
+
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
    name: maximilianchrist
